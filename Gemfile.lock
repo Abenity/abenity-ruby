@@ -1,15 +1,15 @@
 PATH
   remote: .
   specs:
-    abenity_ruby (1.0.0)
+    abenity_ruby (1.0.2)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    mini_portile2 (2.3.0)
+    mini_portile2 (2.4.0)
     minitest (5.11.3)
-    nokogiri (1.8.2)
-      mini_portile2 (~> 2.3.0)
+    nokogiri (1.10.4)
+      mini_portile2 (~> 2.4.0)
     rake (10.5.0)
 
 PLATFORMS
@@ -19,7 +19,7 @@ DEPENDENCIES
   abenity_ruby!
   bundler (~> 1.16)
   minitest (~> 5.0)
-  nokogiri (= 1.8.2)
+  nokogiri (= 1.10.4)
   rake (~> 10.0)
 
 BUNDLED WITH

@@ -5,4 +5,4 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # Specify your gem's dependencies in abenity_ruby.gemspec
 gemspec
 
-gem 'nokogiri', '1.13.9'
+gem 'nokogiri', '1.13.10'

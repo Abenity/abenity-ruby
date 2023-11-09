@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["webmaster@abenity.com"]
 
   spec.summary       = %q{A Ruby library for using the Abenity API.}
-  spec.description   = %q{A Ruby library for using the Abenity API.}
+  spec.description   = %q{A Ruby library for using the Abenity API. API details are online at https://abenity.com/developers/api/members}
   spec.homepage      = "https://github.com/Abenity/abenity-ruby"
   spec.license       = "MIT"
 

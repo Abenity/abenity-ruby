@@ -7,3 +7,5 @@
 /spec/reports/
 /tmp/
 /keys
+/vendor
+*.gem

@@ -1,28 +1,44 @@
 PATH
   remote: .
   specs:
-    abenity_ruby (1.0.5)
+    abenity_ruby (2.0.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    mini_portile2 (2.8.5)
     minitest (5.20.0)
-    nokogiri (1.15.4)
-      mini_portile2 (~> 2.8.2)
+    nokogiri (1.16.0-aarch64-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.0-arm-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.0-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.16.0-x86-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.0-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.16.0-x86_64-linux)
       racc (~> 1.4)
     racc (1.7.3)
     rake (13.1.0)
 
 PLATFORMS
-  ruby
+  aarch64-linux
+  arm-linux
+  arm64-darwin
+  x86-linux
+  x86_64-darwin
+  x86_64-linux
 
 DEPENDENCIES
   abenity_ruby!
-  bundler (~> 1.16)
+  bundler (~> 2.5.4)
   minitest (~> 5.0)
-  nokogiri (~> 1.15)
+  nokogiri (~> 1.16)
   rake (~> 13.0)
 
+RUBY VERSION
+   ruby 3.3.0p0
+
 BUNDLED WITH
-   1.17.3
+   2.5.4

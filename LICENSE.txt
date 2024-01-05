@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2022-2023 Abenity, Inc. http://abenity.com
+Copyright (c) 2022-2024 Abenity, Inc. http://abenity.com
 Copyright (c) 2018-2022 Roland Creative Group
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
